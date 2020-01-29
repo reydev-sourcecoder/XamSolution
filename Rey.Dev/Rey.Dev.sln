@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamSolution.iOS", "XamSolut
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamSolution", "XamSolution\XamSolution\XamSolution.csproj", "{89C4F9E0-F75D-4B07-B627-0F92DE2AFD27}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MOBILE APP", "MOBILE APP", "{3FF60F50-6A76-4DF1-AA39-7F8D0952E167}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -136,6 +138,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{328C2ACB-B69C-4E56-BB13-7A958F09CD92} = {3FF60F50-6A76-4DF1-AA39-7F8D0952E167}
+		{3437ED88-65BC-47D5-8778-45A02D266BCE} = {3FF60F50-6A76-4DF1-AA39-7F8D0952E167}
+		{89C4F9E0-F75D-4B07-B627-0F92DE2AFD27} = {3FF60F50-6A76-4DF1-AA39-7F8D0952E167}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {68013E82-F03C-4D2B-BDC7-2378F9D237EA}
